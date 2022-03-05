@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Role-playing game</title>
+		<link rel="stylesheet" href="./css/index.css" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div id="alchemist" class="character-card alchemist-card">
+				<h2 class="character__name">Alchemist</h2>
+				<img
+					class="character__image"
+					src="./images/alchemist.png"
+					alt="alchemist character"
+				/>
+				<div class="health">
+					<span>health: </span>
+					<b class="hp hp--alchemist">60</b>
+				</div>
+
+				<div class="dice-container">
+					<div class="dice">6</div>
+				</div>
+			</div>
+			<!--  -->
+			<div id="orc" class="character-card orc-card">
+				<h2 class="character__name">Orc</h2>
+				<img
+					class="character__image"
+					src="./images/orc.png"
+					alt="orc character"
+				/>
+				<div class="health">
+					<span>health: </span>
+					<b class="hp hp--orc">60</b>
+				</div>
+				<div class="dice-container">
+					<div class="dice">6</div>
+				</div>
+			</div>
+			<div class="attack-btn">Attack</div>
+		</div>
+	</body>
+</html>
